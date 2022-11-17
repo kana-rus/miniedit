@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+src-tauri/target/
+
+src/node_modules/
+src/coverage/
+src/.next/
+src/out/
+src/build
+src/.DS_Store
+src/*.pem
+src/npm-debug.log*
+src/yarn-debug.log*
+src/yarn-error.log*
+src/.pnpm-debug.log*
+src/.env*.local
+src/.vercel
+src/*.tsbuildinfo
+src/next-env.d.ts
